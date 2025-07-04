@@ -80,11 +80,11 @@
 // }
 // console.log(b)
 
-function abc(){
-    const a = 10;
-    console.log(a)
-}
-console.log(a)
+// function abc(){
+//     const a = 10;
+//     console.log(a)
+// }                     //same as let it have functional and block scope//
+// console.log(a)
 
 // const a = 30;
 // if(a==30){

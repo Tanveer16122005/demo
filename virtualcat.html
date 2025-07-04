@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Cat</title>
+</head>
+<style>
+    body {
+      text-align: center;
+      background-color: #fce4ec;
+      font-family: sans-serif;
+      color: #333;
+    }
+    img {
+      width: 200px;
+      margin: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    #mood {
+      font-size: 18px;
+      margin-top: 10px;
+    }
+  </style>
+<body>
+    <h1>🐱 My Virtual Cat</h1>
+    <img id="cat" src="catnormal.jpg" alt="cat">
+    <div>
+         <button onclick="petcat()">PET</button>
+         <button onclick="feedCat()">FEED</button>
+         <button onclick="sleepCat()">SLEEP</button>
+    </div>
+    <div id="mood">ugh....feeling normal!</div>
+    <script src="virtualcat.js"></script>
+</body>
+</html>

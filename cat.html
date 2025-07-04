@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cat & Bulb Control</title>
+  <style>
+    body {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      font-family: sans-serif;
+    }
+    img {
+      margin: 0px;
+      max-width: 200px;
+    }
+  button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3;
+}
+
+#buttonon.active {
+  background-color: green;
+}
+
+#buttonoff.active {
+  background-color: red;
+}
+
+  </style>
+</head>
+<body>
+  <h1>Cat & Bulb Controller</h1>
+  
+  <div>
+    <img id="bulb" src="bulb off.jpg" alt="Bulb" height="250px" width="250px">
+  </div>
+  <div>
+    <img id="cat" src="cat2.jpg" alt="Cat" height="200px" width="200px">
+  </div>
+  
+  <div>
+<button id="buttonon" onclick="turnOn()">ON</button>
+<button id="buttonoff" onclick="turnOff()">OFF</button>
+  </div>
+  <script src="cat.js"></script>
+</body>
+</html>
+
+
